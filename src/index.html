@@ -12,7 +12,7 @@
 </head>
 <body class="max-w-7xl bg-white mx-auto my-0">
     <!-- header section start here  -->
-    <header class="pt-3 h-[60px]">
+    <header class="pt-3 h-[60px] relative">
         <nav class="flex flex-row justify-between w-full items-center">
             <!-- left nav side  -->
             <div class="flex flex-row items-center">
@@ -29,19 +29,68 @@
             <!-- right nav side  -->
             <div>
                 <ul class="flex flex-row gap-3 items-center"> 
-                    <li class="text-2xl ml-2 text-gray-700 duration-200 hover:text-orange-400"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                    <li class="text-2xl ml-2 text-gray-700 duration-200 hover:text-orange-400"><a href=""><i class="fa-solid fa-heart"></i></a></li>
-                    <li class="text-2xl ml-2 text-gray-700 duration-200 hover:text-orange-400"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
-                    <li class="text-2xl ml-2 text-gray-700 duration-200 hover:text-orange-400"><a href=""><i class="fa-solid fa-user"></i></a></li>
+                    <li class="text-2xl ml-2 text-gray-700 duration-200 hover:text-orange-400"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li class="text-2xl ml-2 text-gray-700 duration-200 hover:text-orange-400"><a href="#"><i class="fa-solid fa-heart"></i></a></li>
+                    <li class="text-2xl ml-2 text-gray-700 duration-200 hover:text-orange-400"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li class="text-2xl ml-2 text-gray-700 duration-200 hover:text-orange-400"><a href="#"><i class="fa-solid fa-user"></i></a></li>
                 </ul>
             </div>
         </nav>
+        
+        <!-- User personal menu section  -->
+        <div class="absolute right-0 top-[60px] flex flex-col bg-white shadow-lg shadow-indigo-500/40 opacity-90 w-[200px] rounded-xl">
+            <div class="flex p-2 border-b-2 border-black">
+                <i class="fa-solid fa-user text-xl ml-2 text-gray-700"></i>
+                <h2 class="text-xl ml-2 text-gray-700 ">Md Munna Mia</h2>
+            </div>
+    
+            <!-- lower setting section  -->
+            <div class="w-full">
+    
+                <!-- Language select  -->
+                <div>
+                    <i class="fa-solid fa-language text-2xl ml-2 text-gray-700 "></i>
+                    <select name="Language" id="lang" class="bg-transparent font-serif font-sans text-gray-700 outline-none ml-5">
+                        <option value="English">English</option>
+                        <option value="Bangla">Bangla</option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                </div>
+    
+                <!-- money select  -->
+                <div>
+                    <i class="fa-solid fa-money-bill text-2xl ml-2 text-gray-700 "></i>
+                    <select name="Language" id="lang" class="bg-transparent font-serif font-sans text-gray-700 outline-none ml-5">
+                        <option value="English">USD</option>
+                        <option value="Bangla">TAKA</option>
+                        <option value="Hindi">RUPAY</option>
+                    </select>
+                </div>
+    
+                <!-- sign out and in -->
+                <div class="flex justify-center flex-col w-full mt-4 border-t-2 border-black">
+                    <div class="flex mt-2">
+                        <i class="fa-solid fa-arrow-right-from-bracket text-xl ml-2 text-gray-700"></i>
+                        <span class="text-xl ml-2 text-gray-700">Sign Out</span>
+                    </div>
+                    <div class="flex mt-2 mb-3">
+                        <i class="fa-solid fa-arrow-right-to-bracket text-xl ml-2 text-gray-700"></i>
+                        <span class="text-xl ml-2 text-gray-700">Sign In</span>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
     </header>
+
+
+    
+
     <!-- header section ends here  -->
 
     <!-- hero section start here  -->
     <section>
-        
+
     </section>
     <!-- hero section ends here  -->
 </body>
