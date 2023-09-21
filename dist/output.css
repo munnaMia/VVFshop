@@ -585,6 +585,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -647,10 +651,6 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -893,6 +893,14 @@ video {
 
 .bg-\[url\(\'\.\.\/images\/hero\.png\'\)\] {
   background-image: url('../images/hero.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/\.jpg\'\)\] {
+  background-image: url('../images/.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/banner2\.jpg\'\)\] {
+  background-image: url('../images/banner2.jpg');
 }
 
 .bg-center {
