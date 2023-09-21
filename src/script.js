@@ -1,20 +1,13 @@
-// const userSetting = document.querySelector("#userSetting");
-// const userBtn = document.querySelector("#userIcon");
+const userIcon = document.querySelector("#userIcon")
+const userPalete = document.querySelector("#userSetting")
 
-// userBtn.addEventListener("click", ()=>{
-//     let step = true;
-//     if(step===true){
-//         userSetting.classList.remove("invisible");
-//         userSetting.classList.add("visible");
-//         step = false;
-//     }
-//     else{
-//         console.log("click");
-//         userSetting.classList.remove("visible");
-//         userSetting.classList.add("invisible");
-//         step = true;
-//     }
-    
-    
-
-// })
+userIcon.addEventListener("click", ()=>{
+    if(userPalete.classList.contains('invisible')){
+        console.log("ok")
+        userPalete.classList.add('visible')
+        userPalete.classList.remove('invisible')
+    }else{
+        userPalete.classList.add('invisible')
+        userPalete.classList.remove('visible')
+    }
+})
