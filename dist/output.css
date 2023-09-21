@@ -605,6 +605,10 @@ video {
   margin-left: 1.25rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .ml-7 {
   margin-left: 1.75rem;
 }
@@ -651,6 +655,14 @@ video {
 
 .mt-9 {
   margin-top: 2.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .block {
@@ -891,16 +903,12 @@ video {
   background-image: url('../images/about-page-banner.jpg');
 }
 
-.bg-\[url\(\'\.\.\/images\/hero\.png\'\)\] {
-  background-image: url('../images/hero.png');
-}
-
-.bg-\[url\(\'\.\.\/images\/\.jpg\'\)\] {
-  background-image: url('../images/.jpg');
-}
-
 .bg-\[url\(\'\.\.\/images\/banner2\.jpg\'\)\] {
   background-image: url('../images/banner2.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/hero\.png\'\)\] {
+  background-image: url('../images/hero.png');
 }
 
 .bg-center {
