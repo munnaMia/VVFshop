@@ -715,6 +715,10 @@ video {
   height: 2.75rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-28 {
   height: 7rem;
 }
@@ -749,6 +753,14 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-2\/3 {
@@ -1025,12 +1037,12 @@ video {
   padding: 1.25rem;
 }
 
-.p-9 {
-  padding: 2.25rem;
-}
-
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-9 {
+  padding: 2.25rem;
 }
 
 .px-2 {
