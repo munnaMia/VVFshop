@@ -550,24 +550,12 @@ video {
   position: relative;
 }
 
-.right-0 {
-  right: 0px;
-}
-
-.top-\[60px\] {
-  top: 60px;
-}
-
 .right-2 {
   right: 0.5rem;
 }
 
 .top-16 {
   top: 4rem;
-}
-
-.top-1 {
-  top: 0.25rem;
 }
 
 .m-3 {
@@ -692,10 +680,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-1 {
@@ -1189,10 +1173,6 @@ video {
 
 .opacity-70 {
   opacity: 0.7;
-}
-
-.opacity-90 {
-  opacity: 0.9;
 }
 
 .shadow-lg {
